@@ -1,8 +1,3 @@
 class User 
-  def first_name 
-    puts "Steve" 
-  end 
-  def last_name
-    puts "Jobs" 
-  end 
+  attr_accessor :first_name, :last_name 
 end 
